@@ -4,10 +4,6 @@
 
 using namespace std;
 
-int main()
-{
-  vector <vector <string> > wordGrid;
-
   /*
      do not edit this space
 
@@ -25,6 +21,22 @@ int main()
   //of the element's row and column and the third blank should be replaced
   //with the value of that element
 
+int main()
+{
+    string wordChoice;
+    vector<vector<string>> wordGrid;
+    char action;
+
+    cout<<"What would you like to do? A(Add),D(Directions, S(Show grid)."<<endl;
+    cin>>action
+
+    while (action == 'A' || action == 'a')
+    {
+    for(row = 0; column = 0; col < row; col++) 
+    cout<<"Enter a word."<<endl;
+    cin>>wordChoice;
+    wordGrid.push_back(wordChoice);
+    cout<<wordGrid[][]<<endl;
   
 
 
